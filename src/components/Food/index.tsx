@@ -13,7 +13,6 @@ interface Food {
   available: boolean;
 }
 
-
 interface FoodProps {
   food: Food;
   handleDelete: (id: number) => void;
